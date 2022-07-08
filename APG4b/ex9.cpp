@@ -9,6 +9,11 @@ int main() {
     x++;
     cout << x << endl;
     x *= (a + b);
+    cout << x << endl;
+    x *= x;
+    cout << x << endl;
+    x -= 1;
+    cout << x << endl;
 
     // ここにプログラムを追記
 }
